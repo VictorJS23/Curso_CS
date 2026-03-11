@@ -1,1 +1,1 @@
-﻿Console.WriteLine("Excersice number 1!");
+﻿Console.WriteLine("Excersice number 0!");
