@@ -12,3 +12,4 @@ C:\Users\Victor Samuel B\Documents\Curso_CS\Project\test\obj\Debug\net9.0\refint
 C:\Users\Victor Samuel B\Documents\Curso_CS\Project\test\obj\Debug\net9.0\test.pdb
 C:\Users\Victor Samuel B\Documents\Curso_CS\Project\test\obj\Debug\net9.0\test.genruntimeconfig.cache
 C:\Users\Victor Samuel B\Documents\Curso_CS\Project\test\obj\Debug\net9.0\ref\test.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\test\obj\Debug\net9.0\test.sourcelink.json
