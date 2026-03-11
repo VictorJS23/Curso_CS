@@ -1,0 +1,163 @@
+________________________________________
+Ejercicios Ordenados
+1.
+Implementa un programa en Java que calcule la secuencia de Collatz para un número entero positivo dado. La secuencia de Collatz se obtiene siguiendo las siguientes reglas: si el número es par, se divide por 2; si es impar, se multiplica por 3 y se le suma 1. El proceso se repite hasta llegar a 1.
+Aquí hay un ejemplo de la sucesión de Collatz para el número 6:
+Para el número 6, la secuencia de Collatz sería:
+•	6 -> 3 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
+Comenzamos con el número 6. Como es par, lo dividimos por 2 y obtenemos 3. Como 3 es impar, lo multiplicamos por 3 y le sumamos 1, obteniendo 10. Continuamos aplicando las reglas de la sucesión de Collatz hasta que llegamos al número 1, que marca el final de la secuencia.
+________________________________________
+2.
+Hacer un programa que calcule e imprima el salario semanal de un empleado a partir de sus horas semanales trabajadas y de su salario por hora.
+Se asume que trabaja 7 dias.
+________________________________________
+3.
+Dadas dos cadenas de caracteres, implementa un programa en Java que determine si son anagramas, es decir, si contienen exactamente las mismas letras pero en un orden diferente.
+El programa debe mostrar:
+•	true si son anagramas
+•	false en caso contrario
+________________________________________
+
+5.
+Dados dos arreglos ordenados de longitud m y n, implementa un programa en Java que encuentre e imprima los elementos comunes entre ambos arreglos.
+________________________________________
+6.
+Dada una cadena de caracteres y un carácter específico, implementa un programa en Java que cuente el número de repeticiones de ese carácter en la cadena.
+________________________________________
+7.
+Hacer un programa que dado un numero de horas, devuelva la cantidad de semanas dias y horas equivalentes.
+Ejemplo:
+Dado un total de 1000 horas debe de mostrar 5 semanas, 6 dias y 16 horas.
+________________________________________
+8.
+Encontrar la secuencia creciente ininterrumpida más larga.
+Implementa un método que encuentre la secuencia creciente más larga en un arreglo de números enteros. La secuencia creciente es una secuencia de números en la que cada número es mayor que el anterior.
+Ejemplo:
+Arreglo:
+[1, 3, 2, 4, 8, 7, 9]
+La secuencia creciente más larga sería:
+2, 4, 8
+Otro ejemplo:
+[1, 3, 2, 4, 8, 7, 9, 11, 25, 200]
+La secuencia más larga sería:
+7, 9, 11, 25, 200
+________________________________________
+9.
+Calcular binomio al cuadrado (a+b)²
+________________________________________
+10.
+Dada la temperatura en Celsius convertir a Farenheit
+y dada la temperatura en Farenheit convertir a Celsius
+________________________________________
+11.
+Hacer un programa que determine cual es un año bisiesto
+________________________________________
+12.
+Algoritmo para calcular la velocidad de un vehiculo
+________________________________________
+13.
+Calcular el precio de venta de un producto, si se sabe que este debe tener una ganancia del 30% en relacion al precio de compra.
+________________________________________
+14.
+Calcular el pago de un trabajador, sabiendo:
+•	horas trabajadas
+•	precio por hora
+•	20% de impuesto
+________________________________________
+
+15.
+A partir del costo unitario de un articulo, la cantidad de articulos y la cantidad de dinero entregada por el cliente, imprima la cantidad de vuelto que debe recibir.
+________________________________________
+16.
+Elaborar un programa que determine si un numero es primo
+________________________________________
+17.
+Elaborar la sucesion de finonachi
+________________________________________
+18.
+Dada la temperatura en Celsius convertir a Farenheit
+y dada la temperatura en Farenheit convertir a Celsius
+________________________________________
+19.
+Hacer un ejercicio que pida un numero e imprima la tabla del uno al diez
+________________________________________
+20.
+Leer por teclado una serie de 10 numeros enteros.
+La aplicación debe indicar si los numeros estan:
+•	ordenados de forma creciente
+•	decreciente
+•	desordenados
+________________________________________
+
+21.
+Hacer una nomina:
+https://github.com/VictorJS23/EjerciciosJava_Vscode_NetBeans/blob/master/normalesYalgunasExplicaciones/nomina.java
+________________________________________
+22.
+Implementa un método que valide si una cadena de caracteres representa una contraseña segura.
+La contraseña debe:
+•	tener al menos 8 caracteres
+•	contener una mayúscula
+•	una minúscula
+•	un número
+•	un carácter especial
+________________________________________
+23.
+Hacer un ejercicio que pida un numero e imprima la tabla del uno al diez
+________________________________________
+24.
+Hacer un ejercicio que pida un nombre de usuario y una contraseña.
+Si:
+usuario == admin
+contraseña == 1234
+Debe darle la bienvenida, sino que se vaya a la pija.
+________________________________________
+
+
+25.
+Pares de suma igual.
+Dado un arreglo unidimensional de números enteros y un valor objetivo, encuentra todos los pares de elementos en el arreglo cuya suma sea igual al valor objetivo.
+________________________________________
+26.
+Implementa un programa en Java que calcule la secuencia de Collatz para un número entero positivo dado.
+Reglas:
+•	si el número es par, se divide por 2
+•	si es impar, se multiplica por 3 y se le suma 1
+Se repite hasta llegar a 1.
+Ejemplo para el número 6:
+6 -> 3 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
+________________________________________
+27.
+En un arreglo se desean almacenar 5 contraseñas, ingresadas por el usuario.
+Solo se almacenan las que:
+•	tengan más de 8 caracteres
+•	no contengan la letra Z, ni mayúscula ni minúscula.
+________________________________________
+
+
+
+
+28.
+Leer dos arreglos de 10 numeros enteros y mezclarlos en un tercero de la forma:
+1° de A
+1° de B
+2° de A
+2° de B
+etc.
+________________________________________
+29.
+Leer 10 numeros, guardarlos en un arreglo.
+Luego:
+•	realizar media de numeros negativos
+•	media de positivos
+•	hacer un contador de ceros
+Nota: este programa funciona con cualquier tipo de dato numerico.
+________________________________________
+30.
+Hacer un programa que simule un cajero automatico con saldo inicial de 1000$.
+Menú:
+1.	Ingresar dinero a la cuenta
+2.	Retirar dinero de la cuenta
+3.	Salir
+Saldo inicial del cajero:
+float SaldoInicial = 1000f;
