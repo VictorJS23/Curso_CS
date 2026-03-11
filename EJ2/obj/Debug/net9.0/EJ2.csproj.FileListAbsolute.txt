@@ -1,0 +1,15 @@
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ2\bin\Debug\net9.0\EJ2.exe
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ2\bin\Debug\net9.0\EJ2.deps.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ2\bin\Debug\net9.0\EJ2.runtimeconfig.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ2\bin\Debug\net9.0\EJ2.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ2\bin\Debug\net9.0\EJ2.pdb
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ2\obj\Debug\net9.0\EJ2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ2\obj\Debug\net9.0\EJ2.AssemblyInfoInputs.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ2\obj\Debug\net9.0\EJ2.AssemblyInfo.cs
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ2\obj\Debug\net9.0\EJ2.csproj.CoreCompileInputs.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ2\obj\Debug\net9.0\EJ2.sourcelink.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ2\obj\Debug\net9.0\EJ2.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ2\obj\Debug\net9.0\refint\EJ2.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ2\obj\Debug\net9.0\EJ2.pdb
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ2\obj\Debug\net9.0\EJ2.genruntimeconfig.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ2\obj\Debug\net9.0\ref\EJ2.dll
