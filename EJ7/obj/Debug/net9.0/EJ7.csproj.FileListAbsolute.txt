@@ -1,0 +1,15 @@
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ7\bin\Debug\net9.0\EJ7.exe
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ7\bin\Debug\net9.0\EJ7.deps.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ7\bin\Debug\net9.0\EJ7.runtimeconfig.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ7\bin\Debug\net9.0\EJ7.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ7\bin\Debug\net9.0\EJ7.pdb
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ7\obj\Debug\net9.0\EJ7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ7\obj\Debug\net9.0\EJ7.AssemblyInfoInputs.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ7\obj\Debug\net9.0\EJ7.AssemblyInfo.cs
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ7\obj\Debug\net9.0\EJ7.csproj.CoreCompileInputs.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ7\obj\Debug\net9.0\EJ7.sourcelink.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ7\obj\Debug\net9.0\EJ7.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ7\obj\Debug\net9.0\refint\EJ7.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ7\obj\Debug\net9.0\EJ7.pdb
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ7\obj\Debug\net9.0\EJ7.genruntimeconfig.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ7\obj\Debug\net9.0\ref\EJ7.dll
