@@ -1,0 +1,15 @@
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ8\bin\Debug\net9.0\EJ8.exe
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ8\bin\Debug\net9.0\EJ8.deps.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ8\bin\Debug\net9.0\EJ8.runtimeconfig.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ8\bin\Debug\net9.0\EJ8.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ8\bin\Debug\net9.0\EJ8.pdb
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ8\obj\Debug\net9.0\EJ8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ8\obj\Debug\net9.0\EJ8.AssemblyInfoInputs.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ8\obj\Debug\net9.0\EJ8.AssemblyInfo.cs
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ8\obj\Debug\net9.0\EJ8.csproj.CoreCompileInputs.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ8\obj\Debug\net9.0\EJ8.sourcelink.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ8\obj\Debug\net9.0\EJ8.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ8\obj\Debug\net9.0\refint\EJ8.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ8\obj\Debug\net9.0\EJ8.pdb
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ8\obj\Debug\net9.0\EJ8.genruntimeconfig.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ8\obj\Debug\net9.0\ref\EJ8.dll
