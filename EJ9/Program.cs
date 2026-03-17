@@ -8,9 +8,9 @@ int year = int.Parse(Console.ReadLine());
 
 if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
 {
-    Console.WriteLine("si es bisiesto");
+    Console.WriteLine("Si es bisiesto");
 }
 else
 {
-    Console.WriteLine("no es bisiesto");
+    Console.WriteLine("No es bisiesto");
 }
