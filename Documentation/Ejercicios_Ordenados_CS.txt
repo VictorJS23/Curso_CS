@@ -46,10 +46,6 @@ ________________________________________
 Calcular binomio al cuadrado (a+b)²
 ________________________________________
 10.
-Dada la temperatura en Celsius convertir a Farenheit
-y dada la temperatura en Farenheit convertir a Celsius
-________________________________________
-11.
 Hacer un programa que determine cual es un año bisiesto
 ________________________________________
 12.
