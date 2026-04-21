@@ -1,0 +1,15 @@
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ12\obj\Debug\net9.0\EJ12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ12\obj\Debug\net9.0\EJ12.AssemblyInfoInputs.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ12\obj\Debug\net9.0\EJ12.AssemblyInfo.cs
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ12\obj\Debug\net9.0\EJ12.csproj.CoreCompileInputs.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ12\obj\Debug\net9.0\EJ12.sourcelink.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ12\bin\Debug\net9.0\EJ12.exe
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ12\bin\Debug\net9.0\EJ12.deps.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ12\bin\Debug\net9.0\EJ12.runtimeconfig.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ12\bin\Debug\net9.0\EJ12.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ12\bin\Debug\net9.0\EJ12.pdb
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ12\obj\Debug\net9.0\EJ12.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ12\obj\Debug\net9.0\refint\EJ12.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ12\obj\Debug\net9.0\EJ12.pdb
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ12\obj\Debug\net9.0\EJ12.genruntimeconfig.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\EJ12\obj\Debug\net9.0\ref\EJ12.dll
