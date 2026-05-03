@@ -1,0 +1,15 @@
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try4\bin\Debug\net9.0\try4.exe
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try4\bin\Debug\net9.0\try4.deps.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try4\bin\Debug\net9.0\try4.runtimeconfig.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try4\bin\Debug\net9.0\try4.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try4\bin\Debug\net9.0\try4.pdb
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try4\obj\Debug\net9.0\try4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try4\obj\Debug\net9.0\try4.AssemblyInfoInputs.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try4\obj\Debug\net9.0\try4.AssemblyInfo.cs
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try4\obj\Debug\net9.0\try4.csproj.CoreCompileInputs.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try4\obj\Debug\net9.0\try4.sourcelink.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try4\obj\Debug\net9.0\try4.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try4\obj\Debug\net9.0\refint\try4.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try4\obj\Debug\net9.0\try4.pdb
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try4\obj\Debug\net9.0\try4.genruntimeconfig.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try4\obj\Debug\net9.0\ref\try4.dll

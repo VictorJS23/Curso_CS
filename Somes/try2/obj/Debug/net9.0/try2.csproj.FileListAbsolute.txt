@@ -1,0 +1,15 @@
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try2\bin\Debug\net9.0\try2.exe
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try2\bin\Debug\net9.0\try2.deps.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try2\bin\Debug\net9.0\try2.runtimeconfig.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try2\bin\Debug\net9.0\try2.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try2\bin\Debug\net9.0\try2.pdb
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try2\obj\Debug\net9.0\try2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try2\obj\Debug\net9.0\try2.AssemblyInfoInputs.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try2\obj\Debug\net9.0\try2.AssemblyInfo.cs
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try2\obj\Debug\net9.0\try2.csproj.CoreCompileInputs.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try2\obj\Debug\net9.0\try2.sourcelink.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try2\obj\Debug\net9.0\try2.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try2\obj\Debug\net9.0\refint\try2.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try2\obj\Debug\net9.0\try2.pdb
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try2\obj\Debug\net9.0\try2.genruntimeconfig.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\try2\obj\Debug\net9.0\ref\try2.dll
