@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\EJ8\\EJ8.csproj",
+      "projectUniqueName": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\Exercises\\EJ8\\EJ8.csproj",
       "projectName": "EJ8",
-      "projectPath": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\EJ8\\EJ8.csproj",
+      "projectPath": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\Exercises\\EJ8\\EJ8.csproj",
       "packagesPath": "C:\\Users\\Victor Samuel B\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\EJ8\\obj\\",
+      "outputPath": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\Exercises\\EJ8\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

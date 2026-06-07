@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\EJ10\\EJ10.csproj",
+      "projectUniqueName": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\Exercises\\EJ10\\EJ10.csproj",
       "projectName": "EJ10",
-      "projectPath": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\EJ10\\EJ10.csproj",
+      "projectPath": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\Exercises\\EJ10\\EJ10.csproj",
       "packagesPath": "C:\\Users\\Victor Samuel B\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\EJ10\\obj\\",
+      "outputPath": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\Exercises\\EJ10\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

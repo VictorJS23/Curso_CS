@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\EJ2\\EJ2.csproj",
+      "projectUniqueName": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\Exercises\\EJ2\\EJ2.csproj",
       "projectName": "EJ2",
-      "projectPath": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\EJ2\\EJ2.csproj",
+      "projectPath": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\Exercises\\EJ2\\EJ2.csproj",
       "packagesPath": "C:\\Users\\Victor Samuel B\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\EJ2\\obj\\",
+      "outputPath": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\Exercises\\EJ2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

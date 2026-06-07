@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EJ4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9b9c085b15c2028f5212620abe6ac46dbaf4dba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f291c657468340389b5edd7c230af2f4a4681473")]
 [assembly: System.Reflection.AssemblyProductAttribute("EJ4")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EJ4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

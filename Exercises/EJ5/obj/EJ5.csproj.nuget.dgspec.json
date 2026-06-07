@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\EJ5\\EJ5.csproj": {}
+    "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\Exercises\\EJ5\\EJ5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\EJ5\\EJ5.csproj": {
+    "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\Exercises\\EJ5\\EJ5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\EJ5\\EJ5.csproj",
+        "projectUniqueName": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\Exercises\\EJ5\\EJ5.csproj",
         "projectName": "EJ5",
-        "projectPath": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\EJ5\\EJ5.csproj",
+        "projectPath": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\Exercises\\EJ5\\EJ5.csproj",
         "packagesPath": "C:\\Users\\Victor Samuel B\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\EJ5\\obj\\",
+        "outputPath": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\Exercises\\EJ5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
