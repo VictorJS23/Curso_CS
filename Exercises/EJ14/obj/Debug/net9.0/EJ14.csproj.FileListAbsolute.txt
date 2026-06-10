@@ -1,0 +1,15 @@
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ14\bin\Debug\net9.0\EJ14.exe
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ14\bin\Debug\net9.0\EJ14.deps.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ14\bin\Debug\net9.0\EJ14.runtimeconfig.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ14\bin\Debug\net9.0\EJ14.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ14\bin\Debug\net9.0\EJ14.pdb
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ14\obj\Debug\net9.0\EJ14.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ14\obj\Debug\net9.0\EJ14.AssemblyInfoInputs.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ14\obj\Debug\net9.0\EJ14.AssemblyInfo.cs
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ14\obj\Debug\net9.0\EJ14.csproj.CoreCompileInputs.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ14\obj\Debug\net9.0\EJ14.sourcelink.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ14\obj\Debug\net9.0\EJ14.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ14\obj\Debug\net9.0\refint\EJ14.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ14\obj\Debug\net9.0\EJ14.pdb
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ14\obj\Debug\net9.0\EJ14.genruntimeconfig.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ14\obj\Debug\net9.0\ref\EJ14.dll
