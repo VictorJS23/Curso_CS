@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BlqEDnY+S5M=",
+  "success": true,
+  "projectFilePath": "/home/victor/Documents/Curso_CS/Exercises/EJ15/EJ15.csproj",
+  "expectedPackageFiles": [
+    "/home/victor/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.8/microsoft.aspnetcore.app.ref.10.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

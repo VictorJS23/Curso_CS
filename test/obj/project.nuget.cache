@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "P4xUxOPYvio=",
+  "dgSpecHash": "7pfXYZuy1MY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\test\\test.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/victor/Documents/Curso_CS/test/test.csproj",
+  "expectedPackageFiles": [
+    "/home/victor/.nuget/packages/microsoft.netcore.app.ref/9.0.16/microsoft.netcore.app.ref.9.0.16.nupkg.sha512",
+    "/home/victor/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.16/microsoft.aspnetcore.app.ref.9.0.16.nupkg.sha512",
+    "/home/victor/.nuget/packages/microsoft.netcore.app.host.linux-x64/9.0.16/microsoft.netcore.app.host.linux-x64.9.0.16.nupkg.sha512"
+  ],
   "logs": []
 }
