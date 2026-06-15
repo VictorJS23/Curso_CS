@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "zOIjdGrNblw=",
+  "dgSpecHash": "qTrSloAQrDE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Victor Samuel B\\Documents\\Curso_CS\\Project\\Exercises\\EJ13\\EJ13.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/victor/Documents/Curso_CS/Exercises/EJ13/EJ13.csproj",
+  "expectedPackageFiles": [
+    "/home/victor/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.16/microsoft.aspnetcore.app.ref.9.0.16.nupkg.sha512",
+    "/home/victor/.nuget/packages/microsoft.netcore.app.host.linux-x64/9.0.16/microsoft.netcore.app.host.linux-x64.9.0.16.nupkg.sha512"
+  ],
   "logs": []
 }

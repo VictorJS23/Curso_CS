@@ -1,15 +1,30 @@
-C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ13\obj\Debug\net9.0\EJ13.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ13\obj\Debug\net9.0\EJ13.AssemblyInfoInputs.cache
-C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ13\obj\Debug\net9.0\EJ13.AssemblyInfo.cs
-C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ13\obj\Debug\net9.0\EJ13.csproj.CoreCompileInputs.cache
-C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ13\obj\Debug\net9.0\EJ13.sourcelink.json
-C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ13\bin\Debug\net9.0\EJ13.exe
-C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ13\bin\Debug\net9.0\EJ13.deps.json
-C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ13\bin\Debug\net9.0\EJ13.runtimeconfig.json
-C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ13\bin\Debug\net9.0\EJ13.dll
-C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ13\bin\Debug\net9.0\EJ13.pdb
-C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ13\obj\Debug\net9.0\EJ13.dll
-C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ13\obj\Debug\net9.0\refint\EJ13.dll
-C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ13\obj\Debug\net9.0\EJ13.pdb
-C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ13\obj\Debug\net9.0\EJ13.genruntimeconfig.cache
-C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Exercises\EJ13\obj\Debug\net9.0\ref\EJ13.dll
+C:/Users/Victor Samuel B/Documents/Curso_CS/Project/Exercises/EJ13/obj/Debug/net9.0/EJ13.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Victor Samuel B/Documents/Curso_CS/Project/Exercises/EJ13/obj/Debug/net9.0/EJ13.AssemblyInfoInputs.cache
+C:/Users/Victor Samuel B/Documents/Curso_CS/Project/Exercises/EJ13/obj/Debug/net9.0/EJ13.AssemblyInfo.cs
+C:/Users/Victor Samuel B/Documents/Curso_CS/Project/Exercises/EJ13/obj/Debug/net9.0/EJ13.csproj.CoreCompileInputs.cache
+C:/Users/Victor Samuel B/Documents/Curso_CS/Project/Exercises/EJ13/obj/Debug/net9.0/EJ13.sourcelink.json
+C:/Users/Victor Samuel B/Documents/Curso_CS/Project/Exercises/EJ13/bin/Debug/net9.0/EJ13.exe
+C:/Users/Victor Samuel B/Documents/Curso_CS/Project/Exercises/EJ13/bin/Debug/net9.0/EJ13.deps.json
+C:/Users/Victor Samuel B/Documents/Curso_CS/Project/Exercises/EJ13/bin/Debug/net9.0/EJ13.runtimeconfig.json
+C:/Users/Victor Samuel B/Documents/Curso_CS/Project/Exercises/EJ13/bin/Debug/net9.0/EJ13.dll
+C:/Users/Victor Samuel B/Documents/Curso_CS/Project/Exercises/EJ13/bin/Debug/net9.0/EJ13.pdb
+C:/Users/Victor Samuel B/Documents/Curso_CS/Project/Exercises/EJ13/obj/Debug/net9.0/EJ13.dll
+C:/Users/Victor Samuel B/Documents/Curso_CS/Project/Exercises/EJ13/obj/Debug/net9.0/refint/EJ13.dll
+C:/Users/Victor Samuel B/Documents/Curso_CS/Project/Exercises/EJ13/obj/Debug/net9.0/EJ13.pdb
+C:/Users/Victor Samuel B/Documents/Curso_CS/Project/Exercises/EJ13/obj/Debug/net9.0/EJ13.genruntimeconfig.cache
+C:/Users/Victor Samuel B/Documents/Curso_CS/Project/Exercises/EJ13/obj/Debug/net9.0/ref/EJ13.dll
+/home/victor/Documents/Curso_CS/Exercises/EJ13/bin/Debug/net9.0/EJ13
+/home/victor/Documents/Curso_CS/Exercises/EJ13/bin/Debug/net9.0/EJ13.deps.json
+/home/victor/Documents/Curso_CS/Exercises/EJ13/bin/Debug/net9.0/EJ13.runtimeconfig.json
+/home/victor/Documents/Curso_CS/Exercises/EJ13/bin/Debug/net9.0/EJ13.dll
+/home/victor/Documents/Curso_CS/Exercises/EJ13/bin/Debug/net9.0/EJ13.pdb
+/home/victor/Documents/Curso_CS/Exercises/EJ13/obj/Debug/net9.0/EJ13.GeneratedMSBuildEditorConfig.editorconfig
+/home/victor/Documents/Curso_CS/Exercises/EJ13/obj/Debug/net9.0/EJ13.AssemblyInfoInputs.cache
+/home/victor/Documents/Curso_CS/Exercises/EJ13/obj/Debug/net9.0/EJ13.AssemblyInfo.cs
+/home/victor/Documents/Curso_CS/Exercises/EJ13/obj/Debug/net9.0/EJ13.csproj.CoreCompileInputs.cache
+/home/victor/Documents/Curso_CS/Exercises/EJ13/obj/Debug/net9.0/EJ13.sourcelink.json
+/home/victor/Documents/Curso_CS/Exercises/EJ13/obj/Debug/net9.0/EJ13.dll
+/home/victor/Documents/Curso_CS/Exercises/EJ13/obj/Debug/net9.0/refint/EJ13.dll
+/home/victor/Documents/Curso_CS/Exercises/EJ13/obj/Debug/net9.0/EJ13.pdb
+/home/victor/Documents/Curso_CS/Exercises/EJ13/obj/Debug/net9.0/EJ13.genruntimeconfig.cache
+/home/victor/Documents/Curso_CS/Exercises/EJ13/obj/Debug/net9.0/ref/EJ13.dll
