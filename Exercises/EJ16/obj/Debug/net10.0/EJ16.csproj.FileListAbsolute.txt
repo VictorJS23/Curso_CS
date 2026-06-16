@@ -1,0 +1,15 @@
+/home/victor/Documents/Curso_CS/Exercises/EJ16/obj/Debug/net10.0/EJ16.GeneratedMSBuildEditorConfig.editorconfig
+/home/victor/Documents/Curso_CS/Exercises/EJ16/obj/Debug/net10.0/EJ16.AssemblyInfoInputs.cache
+/home/victor/Documents/Curso_CS/Exercises/EJ16/obj/Debug/net10.0/EJ16.AssemblyInfo.cs
+/home/victor/Documents/Curso_CS/Exercises/EJ16/obj/Debug/net10.0/EJ16.csproj.CoreCompileInputs.cache
+/home/victor/Documents/Curso_CS/Exercises/EJ16/obj/Debug/net10.0/EJ16.sourcelink.json
+/home/victor/Documents/Curso_CS/Exercises/EJ16/bin/Debug/net10.0/EJ16
+/home/victor/Documents/Curso_CS/Exercises/EJ16/bin/Debug/net10.0/EJ16.deps.json
+/home/victor/Documents/Curso_CS/Exercises/EJ16/bin/Debug/net10.0/EJ16.runtimeconfig.json
+/home/victor/Documents/Curso_CS/Exercises/EJ16/bin/Debug/net10.0/EJ16.dll
+/home/victor/Documents/Curso_CS/Exercises/EJ16/bin/Debug/net10.0/EJ16.pdb
+/home/victor/Documents/Curso_CS/Exercises/EJ16/obj/Debug/net10.0/EJ16.dll
+/home/victor/Documents/Curso_CS/Exercises/EJ16/obj/Debug/net10.0/refint/EJ16.dll
+/home/victor/Documents/Curso_CS/Exercises/EJ16/obj/Debug/net10.0/EJ16.pdb
+/home/victor/Documents/Curso_CS/Exercises/EJ16/obj/Debug/net10.0/EJ16.genruntimeconfig.cache
+/home/victor/Documents/Curso_CS/Exercises/EJ16/obj/Debug/net10.0/ref/EJ16.dll
