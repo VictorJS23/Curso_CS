@@ -1,0 +1,15 @@
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\TryCatch\ejer5\bin\Debug\net9.0\ejer5.exe
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\TryCatch\ejer5\bin\Debug\net9.0\ejer5.deps.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\TryCatch\ejer5\bin\Debug\net9.0\ejer5.runtimeconfig.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\TryCatch\ejer5\bin\Debug\net9.0\ejer5.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\TryCatch\ejer5\bin\Debug\net9.0\ejer5.pdb
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\TryCatch\ejer5\obj\Debug\net9.0\ejer5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\TryCatch\ejer5\obj\Debug\net9.0\ejer5.AssemblyInfoInputs.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\TryCatch\ejer5\obj\Debug\net9.0\ejer5.AssemblyInfo.cs
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\TryCatch\ejer5\obj\Debug\net9.0\ejer5.csproj.CoreCompileInputs.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\TryCatch\ejer5\obj\Debug\net9.0\ejer5.sourcelink.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\TryCatch\ejer5\obj\Debug\net9.0\ejer5.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\TryCatch\ejer5\obj\Debug\net9.0\refint\ejer5.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\TryCatch\ejer5\obj\Debug\net9.0\ejer5.pdb
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\TryCatch\ejer5\obj\Debug\net9.0\ejer5.genruntimeconfig.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\TryCatch\ejer5\obj\Debug\net9.0\ref\ejer5.dll
