@@ -1,0 +1,15 @@
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\Methods\ejer1\bin\Debug\net9.0\ejer1.exe
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\Methods\ejer1\bin\Debug\net9.0\ejer1.deps.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\Methods\ejer1\bin\Debug\net9.0\ejer1.runtimeconfig.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\Methods\ejer1\bin\Debug\net9.0\ejer1.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\Methods\ejer1\bin\Debug\net9.0\ejer1.pdb
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\Methods\ejer1\obj\Debug\net9.0\ejer1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\Methods\ejer1\obj\Debug\net9.0\ejer1.AssemblyInfoInputs.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\Methods\ejer1\obj\Debug\net9.0\ejer1.AssemblyInfo.cs
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\Methods\ejer1\obj\Debug\net9.0\ejer1.csproj.CoreCompileInputs.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\Methods\ejer1\obj\Debug\net9.0\ejer1.sourcelink.json
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\Methods\ejer1\obj\Debug\net9.0\ejer1.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\Methods\ejer1\obj\Debug\net9.0\refint\ejer1.dll
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\Methods\ejer1\obj\Debug\net9.0\ejer1.pdb
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\Methods\ejer1\obj\Debug\net9.0\ejer1.genruntimeconfig.cache
+C:\Users\Victor Samuel B\Documents\Curso_CS\Project\Somes\UNI\Methods\ejer1\obj\Debug\net9.0\ref\ejer1.dll

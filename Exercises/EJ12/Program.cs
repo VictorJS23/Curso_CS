@@ -19,7 +19,9 @@ for (int i = 1; i <= cantidad; i++)
     Console.WriteLine(new string(symbol, i));
 }
 Console.WriteLine("-----------------------");
+
 // Decreciente
+
 for (int i = cantidad; i > 0; i--)
 {
     Console.WriteLine(new string(symbol, i));
