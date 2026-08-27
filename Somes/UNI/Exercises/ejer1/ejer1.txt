@@ -1,0 +1,48 @@
+🟢 Ejercicio 1 — Conversor de Temperatura con POO
+Objetivo
+
+Crear una clase Temperatura que sea responsable de almacenar y convertir temperaturas.
+
+Clase Temperatura
+
+Debe tener:
+
+double Fahrenheit
+double Celsius
+
+Métodos:
+
+ConvertirACelsius()
+ConvertirAFahrenheit()
+MostrarResultado()
+
+Requisitos
+
+Crear un constructor que reciba Fahrenheit.
+
+Fahrenheit debe ser una propiedad privada o estar protegida mediante una propiedad.
+
+ConvertirACelsius() debe calcular:
+C = (F - 32) × 5 / 9
+
+Permitir convertir también de Celsius a Fahrenheit.
+
+Crear validaciones:
+
+No permitir temperaturas menores a -459.67 °F.
+
+MostrarResultado() debe mostrar la temperatura original y la convertida.
+
+Main no debe realizar cálculos. Solo debe crear y utilizar objetos.
+
+🔥 Reto adicional
+
+Crea un enum:
+
+enum Escala
+{
+    Celsius,
+    Fahrenheit
+}
+
+Y modifica tu clase para que pueda recibir una escala y convertir automáticamente.
