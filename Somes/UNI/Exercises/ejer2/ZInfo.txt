@@ -1,0 +1,218 @@
+🟡 Ejercicio 2 — Sistema de Facturación
+
+Crea un pequeño sistema de facturación utilizando varias clases.
+
+Clases
+Producto
+Factura
+Producto
+
+Debe tener:
+
+Nombre
+Precio
+Cantidad
+
+Métodos:
+
+CalcularSubtotal()
+MostrarProducto()
+Factura
+
+Debe tener:
+
+Número de factura
+Cliente
+Lista de productos
+Porcentaje de IVA
+
+Métodos:
+
+AgregarProducto()
+EliminarProducto()
+CalcularSubtotal()
+CalcularIVA()
+CalcularTotal()
+MostrarFactura()
+Requisitos
+
+El usuario debe poder:
+
+Crear una factura.
+Agregar varios productos.
+Mostrar todos los productos.
+Calcular el subtotal.
+Calcular el IVA del 15%.
+Calcular el total.
+
+Ejemplo:
+
+================================
+          FACTURA #001
+================================
+
+Cliente: Juan Pérez
+
+Producto       Cant.    Precio
+--------------------------------
+Shampoo          2       120
+Crema            1       250
+Gel              3        80
+
+Subtotal:       C$ 730
+IVA 15%:        C$ 109.50
+Total:          C$ 839.50
+================================
+🔥 Retos
+
+Agrega:
+
+Descuento por producto.
+Descuento general.
+Validación de precio y cantidad.
+Eliminar productos.
+Buscar un producto por nombre.
+Evitar productos con precio menor o igual a 0.
+
+Restricción: Main() no puede calcular subtotal, IVA ni total.
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+
+1. Clase Producto
+
+Representa un producto individual de la compra.
+
+Atributos/propiedades
+
+Debe conocer:
+
+Nombre
+Precio
+Cantidad
+
+Por ejemplo, un objeto podría representar:
+
+Producto
+├── Nombre: Shampoo
+├── Precio: 120
+└── Cantidad: 2
+Métodos
+
+Debe encargarse de:
+
+CalcularSubtotal()
+
+Calcula cuánto cuestan las unidades de ese producto:
+
+Precio × Cantidad
+
+MostrarProducto()
+
+Muestra la información del producto.
+
+Importante
+
+Producto NO debería saber nada sobre:
+
+IVA
+Facturas
+Descuentos generales
+Otros productos
+
+Su única responsabilidad es representar y trabajar con un producto.
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+
+2. Clase Factura
+
+Representa la compra completa.
+
+Atributos/propiedades
+
+Debe conocer:
+
+NumeroFactura
+Cliente
+Una lista de Producto
+PorcentajeIVA
+
+Aquí está la parte importante:
+
+Factura
+│
+├── Número: 001
+├── Cliente: Carlos
+├── IVA: 15%
+│
+└── Productos
+      ├── Shampoo
+      ├── Crema
+      └── Gel
+
+Por eso necesitarás probablemente algo como una:
+
+List<Producto>
+
+La Factura contiene varios objetos Producto.
+
+Métodos de Factura
+
+AgregarProducto()
+
+Agrega un objeto Producto a la lista.
+
+EliminarProducto()
+
+Elimina un producto de la factura.
+
+CalcularSubtotal()
+
+Debe recorrer los productos y obtener la suma de sus subtotales.
+
+Por ejemplo:
+
+Shampoo → 2 × 120 = 240
+Crema   → 1 × 250 = 250
+Gel     → 3 × 80  = 240
+                    ─────
+Subtotal             730
+
+Fíjate en algo importante:
+
+👉 Factura no calcula directamente precio × cantidad.
+
+Eso lo hace Producto.
+
+Factura simplemente le pide a cada producto su subtotal y los suma.
+
+CalcularIVA()
+
+Utiliza el subtotal y el porcentaje de IVA.
+
+IVA = Subtotal × 15%
+
+CalcularTotal()
+
+Debe obtener:
+
+Subtotal + IVA
+
+MostrarFactura()
+
+Se encarga de mostrar todo el resumen:
+
+================================
+          FACTURA
+================================
+
+Cliente: Carlos
+
+Shampoo    2 × C$120 = C$240
+Crema      1 × C$250 = C$250
+Gel        3 × C$80  = C$240
+
+Subtotal: C$730
+IVA:      C$109.50
+Total:    C$839.50
