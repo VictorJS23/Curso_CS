@@ -1,0 +1,386 @@
+Claro. Te explico el Ejercicio 3 clase por clase, pero sin darte el código, para que tú lo implementes.
+
+🟠 Ejercicio 3 — Sistema de Propinas por Comensal
+
+La idea es representar una mesa de restaurante donde hay varias personas, cada una con su propio consumo.
+
+Por ejemplo:
+
+                    MESA
+                     │
+          ┌──────────┼──────────┐
+          ↓          ↓          ↓
+       Carlos       Ana       Pedro
+       C$350       C$500      C$250
+
+Tendremos 2 clases:
+
+Comensal
+Mesa
+1. Clase Comensal
+
+Esta clase representa a una persona que está comiendo en la mesa.
+
+Por ejemplo:
+
+Comensal
+├── Nombre: Carlos
+└── Consumo: C$350
+¿Qué datos debe tener?
+Nombre
+
+El nombre de la persona.
+
+Ejemplo:
+
+Carlos
+Consumo
+
+Cuánto dinero ha consumido esa persona.
+
+Ejemplo:
+
+350
+
+Por lo tanto, cada objeto Comensal representa a una persona específica.
+
+¿Qué métodos debe tener?
+AgregarConsumo()
+
+Sirve para agregar o modificar el consumo del comensal.
+
+Por ejemplo, Carlos inicialmente lleva:
+
+C$200
+
+Después pide algo de:
+
+C$150
+
+Su consumo pasa a:
+
+C$350
+
+La idea es que el propio objeto Comensal se encargue de modificar su consumo.
+
+MostrarConsumo()
+
+Simplemente muestra la información de ese comensal.
+
+Por ejemplo:
+
+Nombre: Carlos
+Consumo: C$350
+CalcularTotalComensal()
+
+Este método tendrá una responsabilidad importante.
+
+Debe determinar cuánto debe pagar finalmente esa persona.
+
+Pero aquí hay algo que debes pensar tú:
+
+El total de una persona depende de:
+
+Consumo
++
+Propina que le corresponde
+
+Por ejemplo:
+
+Consumo: C$350
+Propina: C$52.50
+----------------
+Total:   C$402.50
+
+💡 No necesariamente tienes que guardar la propina como atributo de Comensal. Piensa cómo podrías recibirla para hacer el cálculo.
+
+2. Clase Mesa
+
+Esta clase representa la mesa completa, no una persona.
+
+Por ejemplo:
+
+Mesa
+├── Número: 5
+├── Propina: 15%
+│
+└── Comensales
+    ├── Carlos
+    ├── Ana
+    ├── Pedro
+    └── María
+¿Qué datos debe tener?
+NumeroMesa
+
+Identifica la mesa.
+
+Ejemplo:
+
+5
+PorcentajePropina
+
+El porcentaje que los clientes decidieron dejar.
+
+Ejemplo:
+
+15%
+
+Podría ser:
+
+10%
+15%
+20%
+
+etc.
+
+Lista de comensales
+
+Este es el punto más importante de este ejercicio.
+
+Una Mesa tiene muchos Comensal.
+
+Por eso necesitas una colección de objetos Comensal.
+
+Conceptualmente:
+
+Mesa
+  │
+  └── Lista de Comensal
+          │
+          ├── Carlos
+          ├── Ana
+          ├── Pedro
+          └── María
+
+Aquí estás practicando composición/relación entre objetos.
+
+Métodos de Mesa
+AgregarComensal()
+
+Sirve para agregar un objeto Comensal a la mesa.
+
+Por ejemplo:
+
+Mesa #5
+
+Agregar:
+Carlos → C$350
+
+Después:
+
+Mesa #5
+└── Carlos
+
+Agregas otro:
+
+Ana → C$500
+
+Y queda:
+
+Mesa #5
+├── Carlos → C$350
+└── Ana    → C$500
+CalcularConsumoTotal()
+
+Debe calcular cuánto han consumido todos los comensales juntos.
+
+Por ejemplo:
+
+Carlos → C$350
+Ana    → C$500
+Pedro  → C$250
+María  → C$400
+
+Entonces:
+
+350 + 500 + 250 + 400 = 1500
+
+Resultado:
+
+Consumo total = C$1500
+
+⚠️ Aquí quiero que pienses en algo importante:
+
+Mesa no debería acceder a cosas raras de cada objeto. Simplemente debería pedirle a cada Comensal su consumo y acumularlos.
+
+CalcularPropina()
+
+Aquí calculas la propina total de la mesa.
+
+Si:
+
+Consumo total = C$1500
+Propina = 15%
+
+Entonces:
+
+1500 × 0.15 = C$225
+
+Resultado:
+
+Propina total = C$225
+CalcularPropinaPorPersona()
+
+En la versión básica del ejercicio podrías dividir:
+
+Propina total ÷ cantidad de comensales
+
+Por ejemplo:
+
+225 ÷ 4 = 56.25
+
+Pero el reto del ejercicio cambia esto.
+
+Queremos que la propina sea proporcional al consumo.
+
+🔥 El reto importante
+
+Supongamos:
+
+Carlos → C$350
+Ana    → C$500
+Pedro  → C$250
+María  → C$400
+
+Total → C$1500
+Propina → 15% = C$225
+
+No sería justo hacer:
+
+225 ÷ 4 = C$56.25
+
+para todos.
+
+Carlos consumió menos que Ana, por lo que debería aportar menos propina.
+
+La idea es calcular qué porcentaje del consumo total representa cada persona.
+
+Por ejemplo, Carlos:
+
+350 / 1500
+
+Eso representa aproximadamente el 23.33% del consumo.
+
+Entonces Carlos debería pagar aproximadamente el 23.33% de los C$225 de propina.
+
+MostrarResumen()
+
+Finalmente, Mesa debe mostrar toda la información.
+
+Algo parecido a:
+
+=====================================
+          RESUMEN DE MESA
+=====================================
+
+Mesa: 5
+
+Carlos
+Consumo: C$350
+Propina: C$52.50
+Total:   C$402.50
+
+Ana
+Consumo: C$500
+Propina: C$75.00
+Total:   C$575.00
+
+Pedro
+Consumo: C$250
+Propina: C$37.50
+Total:   C$287.50
+
+María
+Consumo: C$400
+Propina: C$60.00
+Total:   C$460.00
+
+-------------------------------------
+Consumo total: C$1500
+Propina total: C$225
+Total a pagar: C$1725
+=====================================
+🧠 ¿Quién se encarga de qué?
+
+Esta es la parte que más quiero que entiendas antes de programarlo:
+
+Comensal
+
+Se ocupa de una persona.
+
+Comensal
+├── Nombre
+├── Consumo
+├── AgregarConsumo()
+├── MostrarConsumo()
+└── CalcularTotalComensal()
+Mesa
+
+Se ocupa de todas las personas y de la cuenta general.
+
+Mesa
+├── NumeroMesa
+├── PorcentajePropina
+├── Lista de Comensales
+│
+├── AgregarComensal()
+├── CalcularConsumoTotal()
+├── CalcularPropina()
+├── CalcularPropinaPorPersona()
+└── MostrarResumen()
+
+Y Main se encarga principalmente de:
+
+Usuario
+   ↓
+Introduce datos
+   ↓
+Crea Comensales
+   ↓
+Crea Mesa
+   ↓
+Agrega Comensales a Mesa
+   ↓
+Pide a Mesa que muestre el resumen
+
+La clave del ejercicio: no conviertas Main en una calculadora gigante. Si empiezas a hacer en Main sumas de consumos, cálculos de propinas, etc., probablemente esa responsabilidad debería estar en alguna de tus clases.
+
+hoy 9:08 a.m.
+Dame.mejor la formula para calcular la propina por cliente
+
+Claro. Para que la propina sea proporcional a lo que consumió cada cliente, usa esta fórmula:
+
+$$ \text{Propina del cliente} = \frac{\text{Consumo del cliente}}{\text{Consumo total}} \times \text{Propina total} $$
+Ejemplo
+
+Supongamos:
+
+Consumo de Carlos = 350
+Consumo total = 1500
+Propina total = 225
+
+Entonces:
+
+$$ \frac{350}{1500}\times225 = 52.50 $$
+
+Carlos paga C$52.50 de propina.
+
+En forma de código
+
+Conceptualmente:
+
+propinaCliente = (consumoCliente / consumoTotal) * propinaTotal
+
+Y recuerda que:
+
+propinaTotal = consumoTotal * (porcentajePropina / 100)
+
+Por lo tanto, para cada comensal:
+
+Consumo individual
+        ↓
+Porcentaje que representa del total
+        ↓
+Se aplica ese porcentaje a la propina total
+        ↓
+Propina que le corresponde
