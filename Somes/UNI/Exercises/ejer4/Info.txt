@@ -1,0 +1,283 @@
+EJERCICIO 1 — SISTEMA DE FACTURACIÓN ELÉCTRICA
+
+OBJETIVO
+
+Convertir el ejercicio original de cálculo de consumo eléctrico a un programa orientado a objetos (POO), utilizando clases, propiedades, constructores, métodos, objetos, encapsulamiento y relaciones entre clases.
+
+El sistema debe permitir registrar un cliente, almacenar la información de su medidor y generar una factura mensual según el consumo eléctrico.
+
+ESTRUCTURA DEL SISTEMA
+
+El programa estará compuesto principalmente por las siguientes clases:
+
+1. Cliente
+
+2. Medidor
+
+3. Factura
+
+4. Program (Main)
+
+5. CLASE CLIENTE
+
+---
+
+Representa a la persona que recibe la factura eléctrica.
+
+Propiedades:
+
+- Id
+- Nombre
+- Direccion
+
+Ejemplo:
+
+Id: 1
+Nombre: Carlos
+Direccion: Estelí
+
+Responsabilidad:
+
+La clase Cliente debe encargarse principalmente de almacenar la información del cliente.
+
+No debe encargarse de calcular el consumo eléctrico.
+
+2. CLASE MEDIDOR
+
+---
+
+Representa el medidor eléctrico instalado en la vivienda.
+
+Propiedades:
+
+- NumeroMedidor
+- LecturaAnterior
+- LecturaActual
+
+Ejemplo:
+
+NumeroMedidor: M001
+LecturaAnterior: 1250
+LecturaActual: 1400
+
+Método:
+
+- CalcularConsumo()
+
+El método debe calcular el consumo utilizando:
+
+Consumo = LecturaActual - LecturaAnterior
+
+Ejemplo:
+
+1400 - 1250 = 150 kWh
+
+Responsabilidad:
+
+El Medidor es responsable de conocer las lecturas y calcular el consumo eléctrico.
+
+La clase Cliente no debe realizar este cálculo.
+
+3. CLASE FACTURA
+
+---
+
+Representa la factura que se genera para el cliente.
+
+Propiedades:
+
+- NumeroFactura
+- Cliente
+- Consumo
+- PrecioKwh
+- Subtotal
+- Impuesto
+- Total
+
+La propiedad Cliente debe ser un objeto de la clase Cliente.
+
+Métodos:
+
+- CalcularSubtotal()
+- CalcularImpuesto()
+- CalcularTotal()
+- MostrarFactura()
+
+CÁLCULO DEL SUBTOTAL
+
+El subtotal se obtiene multiplicando el consumo por el precio del kWh.
+
+Formula:
+
+Subtotal = Consumo × PrecioKwh
+
+Ejemplo:
+
+Consumo: 150 kWh
+Precio por kWh: C$5
+
+Subtotal = 150 × 5
+Subtotal = C$750
+
+CÁLCULO DEL IMPUESTO
+
+Se aplicará un impuesto del 15% sobre el subtotal.
+
+Formula:
+
+Impuesto = Subtotal × 0.15
+
+Ejemplo:
+
+Subtotal: C$750
+
+Impuesto = 750 × 0.15
+Impuesto = C$112.50
+
+CÁLCULO DEL TOTAL
+
+El total de la factura se obtiene sumando el subtotal y el impuesto.
+
+Formula:
+
+Total = Subtotal + Impuesto
+
+Ejemplo:
+
+Subtotal: C$750
+Impuesto: C$112.50
+
+Total = 750 + 112.50
+Total = C$862.50
+
+EJEMPLO DE FACTURA
+
+========== FACTURA ==========
+
+Cliente: Carlos
+Medidor: M001
+
+Lectura anterior: 1250 kWh
+Lectura actual:   1400 kWh
+
+Consumo:          150 kWh
+Precio/kWh:       C$5
+
+Subtotal:         C$750
+Impuesto:         C$112.50
+
+TOTAL:            C$862.50
+
+RELACIÓN ENTRE LAS CLASES
+
+El sistema puede representarse de la siguiente manera:
+
+Cliente
+|
+| tiene
+v
+Medidor
+|
+| calcula
+v
+Consumo
+|
+v
+Factura
+
+La Factura también contiene un objeto Cliente:
+
+Factura
+|
+└── Cliente
+
+FLUJO GENERAL DEL PROGRAMA
+
+1. Crear el objeto Cliente.
+2. Crear el objeto Medidor.
+3. Asignar las lecturas del medidor.
+4. El Medidor calcula el consumo.
+5. Crear el objeto Factura.
+6. Asociar el Cliente con la Factura.
+7. Pasar el consumo obtenido del Medidor a la Factura.
+8. Establecer el precio por kWh.
+9. Calcular el subtotal.
+10. Calcular el impuesto.
+11. Calcular el total.
+12. Mostrar la factura.
+
+RESPONSABILIDADES
+
+Cliente:
+
+- Almacenar los datos del cliente.
+
+Medidor:
+
+- Almacenar las lecturas.
+- Calcular el consumo eléctrico.
+
+Factura:
+
+- Almacenar los datos de la factura.
+- Calcular subtotal.
+- Calcular impuesto.
+- Calcular total.
+- Mostrar la factura.
+
+Program / Main:
+
+- Crear los objetos.
+- Solicitar datos al usuario.
+- Coordinar las diferentes clases.
+- Ejecutar el flujo del programa.
+
+El Main no debería encargarse directamente de realizar los cálculos.
+
+CONCEPTOS DE POO A PRACTICAR
+
+- Clases
+- Objetos
+- Propiedades
+- Constructores
+- Métodos
+- Encapsulamiento
+- Retorno de valores
+- Uso de objetos dentro de otras clases
+- Relación entre clases
+- Responsabilidad de cada clase
+- Main como coordinador del programa
+
+IMPORTANTE
+
+No es necesario utilizar en este ejercicio:
+
+- Herencia
+- Interfaces
+- Clases abstractas
+- Polimorfismo
+
+El objetivo es practicar primero los fundamentos de POO.
+
+No es necesario utilizar todos los conceptos de POO en todos los ejercicios. Cada ejercicio debe utilizar los conceptos que tengan sentido según el problema.
+
+RETO OPCIONAL
+
+Se puede crear una clase adicional llamada:
+
+TarifaElectrica
+
+Propiedades:
+
+- PrecioKwh
+- Impuesto
+
+La relación sería:
+
+Factura
+|
+└── TarifaElectrica
+
+Esto permitiría separar la información relacionada con las tarifas de la información propia de la factura.
+
+Sin embargo, para practicar los fundamentos de POO, primero se recomienda implementar el ejercicio utilizando PrecioKwh directamente dentro de Factura.
