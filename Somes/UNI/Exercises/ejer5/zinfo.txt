@@ -1,0 +1,381 @@
+🔥 Ejercicio 5 — Sistema de Inventario con POO
+🎯 Objetivo
+
+Crear un sistema de inventario para una tienda que permita registrar, consultar, vender y reponer productos.
+
+Aquí vas a practicar:
+
+Clases y objetos
+Encapsulamiento
+Constructores
+Propiedades
+Métodos
+List<T>
+Relación entre clases
+Búsqueda
+Validaciones
+Condicionales
+Recorridos de listas
+1. Clase Categoria
+
+Representa la categoría a la que pertenece un producto.
+
+Debe tener:
+Id
+Nombre
+Descripcion
+
+Ejemplo:
+
+Categoria
+├── Id: 1
+├── Nombre: Cabello
+└── Descripcion: Productos para el cuidado del cabello
+Constructor
+
+La categoría debe poder crearse proporcionando sus datos principales.
+
+Método
+
+Puedes agregar:
+
+MostrarCategoria()
+
+para mostrar la información de la categoría.
+
+2. Clase Producto
+
+Representa un producto individual del inventario.
+
+Debe tener:
+Codigo
+Nombre
+Precio
+Stock
+Categoria
+
+Ejemplo:
+
+Producto
+├── Codigo: P001
+├── Nombre: Shampoo
+├── Precio: C$150
+├── Stock: 20
+└── Categoria: Cabello
+
+Fíjate en algo importante:
+
+Producto
+    │
+    └── Categoria
+
+El producto debe tener un objeto Categoria, no simplemente un texto con el nombre de la categoría.
+
+Métodos de Producto
+AumentarStock()
+
+Debe permitir aumentar la cantidad disponible.
+
+Ejemplo:
+
+Stock actual: 20
+Agregar: 10
+
+Nuevo stock: 30
+DisminuirStock()
+
+Debe reducir el stock.
+
+Ejemplo:
+
+Stock actual: 20
+Venta: 5
+
+Nuevo stock: 15
+
+Pero no debe permitir que el stock quede negativo.
+
+HayStock()
+
+Debe permitir comprobar si existe suficiente cantidad para realizar una operación.
+
+Por ejemplo:
+
+Stock: 10
+Solicitado: 7
+
+Resultado:
+
+Sí hay stock
+
+Pero:
+
+Stock: 10
+Solicitado: 15
+
+Resultado:
+
+No hay stock suficiente
+MostrarInformacion()
+
+Debe mostrar los datos del producto.
+
+Por ejemplo:
+
+Código: P001
+Nombre: Shampoo
+Precio: C$150
+Stock: 20
+Categoría: Cabello
+3. Clase Inventario
+
+Esta es la clase más importante del ejercicio.
+
+Representa todo el inventario de la tienda.
+
+Debe contener una:
+
+List<Producto>
+
+Es decir:
+
+Inventario
+│
+├── Producto
+├── Producto
+├── Producto
+└── Producto
+Métodos de Inventario
+AgregarProducto()
+
+Debe recibir/agregar un producto al inventario.
+
+Pero antes debes comprobar que no exista otro producto con el mismo código.
+
+Por ejemplo:
+
+P001 → Shampoo
+P002 → Crema
+P003 → Gel
+
+Si intentan agregar:
+
+P001 → Otro producto
+
+debe rechazarse porque P001 ya existe.
+
+EliminarProducto()
+
+Debe permitir eliminar un producto del inventario utilizando su código.
+
+Por ejemplo:
+
+Eliminar: P002
+
+Resultado:
+
+P001 → Shampoo
+P003 → Gel
+BuscarProducto()
+
+Debe permitir buscar un producto.
+
+La búsqueda puede hacerse por:
+
+Código
+Nombre
+
+Por ejemplo:
+
+Ingrese código: P001
+
+Y devolver/encontrar el producto correspondiente.
+
+VenderProducto()
+
+Este método debe simular una venta.
+
+Por ejemplo:
+
+Código: P001
+Cantidad: 5
+
+El método debe comprobar:
+
+¿Existe el producto?
+        ↓
+¿Hay suficiente stock?
+        ↓
+Sí → disminuir stock
+No → rechazar venta
+
+Si había:
+
+Stock = 20
+
+después de vender 5:
+
+Stock = 15
+ReponerProducto()
+
+Hace lo contrario.
+
+Por ejemplo:
+
+Producto: P001
+Cantidad a reponer: 10
+
+Si tenía:
+
+Stock = 15
+
+pasa a:
+
+Stock = 25
+MostrarInventario()
+
+Debe mostrar todos los productos.
+
+Por ejemplo:
+
+=============================================
+              INVENTARIO
+=============================================
+
+Código    Producto       Precio      Stock
+---------------------------------------------
+P001      Shampoo        C$150         20
+P002      Crema          C$250          8
+P003      Gel            C$80          23
+=============================================
+🔥 Retos adicionales
+
+Una vez que tengas funcionando lo anterior, agrega estos métodos:
+
+ObtenerProductoMenorStock()
+
+Debe encontrar el producto que tenga menos unidades disponibles.
+
+Ejemplo:
+
+Shampoo → 20
+Crema   → 8
+Gel     → 23
+
+Resultado:
+
+Producto con menor stock: Crema
+Stock: 8
+ObtenerProductoMasCaro()
+
+Debe encontrar el producto con mayor precio.
+
+Ejemplo:
+
+Shampoo → C$150
+Crema   → C$250
+Gel     → C$80
+
+Resultado:
+
+Producto más caro: Crema
+Precio: C$250
+CalcularValorInventario()
+
+Debe calcular cuánto dinero representa todo el inventario.
+
+La fórmula para cada producto es:
+
+Precio × Stock
+
+Y luego sumas todos los productos.
+
+Por ejemplo:
+
+Shampoo → 150 × 20 = 3000
+Crema   → 250 × 8  = 2000
+Gel     → 80 × 23  = 1840
+
+Entonces:
+
+Valor total = C$6840
+🧠 Lo más importante: responsabilidades
+
+Quiero que mantengas esta separación:
+
+Categoria
+
+Se ocupa de:
+
+Información de una categoría.
+
+Producto
+
+Se ocupa de:
+
+Información y operaciones propias de un producto.
+
+Por ejemplo:
+
+AumentarStock()
+DisminuirStock()
+HayStock()
+Inventario
+
+Se ocupa de:
+
+Administrar muchos productos.
+
+Por ejemplo:
+
+AgregarProducto()
+EliminarProducto()
+BuscarProducto()
+VenderProducto()
+ReponerProducto()
+🖥️ ¿Qué hace Main()?
+
+El usuario debería poder interactuar con un menú parecido a:
+
+================================
+       SISTEMA DE INVENTARIO
+================================
+
+1. Agregar producto
+2. Eliminar producto
+3. Buscar producto
+4. Vender producto
+5. Reponer producto
+6. Mostrar inventario
+7. Producto con menor stock
+8. Producto más caro
+9. Valor total del inventario
+0. Salir
+
+Seleccione una opción:
+
+Y aquí viene una restricción importante para tu práctica:
+
+No hagas los cálculos del inventario directamente en Main().
+
+Main() debe coordinar:
+
+Usuario
+   ↓
+Main
+   ↓
+Inventario
+   ↓
+Producto
+
+Por ejemplo, si el usuario quiere vender:
+
+Main
+ ↓
+Inventario.VenderProducto(...)
+ ↓
+Inventario busca Producto
+ ↓
+Producto.HayStock(...)
+ ↓
+Producto.DisminuirStock(...)
