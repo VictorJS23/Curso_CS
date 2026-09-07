@@ -16,6 +16,7 @@ Búsqueda
 Validaciones
 Condicionales
 Recorridos de listas
+
 1. Clase Categoria
 
 Representa la categoría a la que pertenece un producto.
@@ -31,6 +32,7 @@ Categoria
 ├── Id: 1
 ├── Nombre: Cabello
 └── Descripcion: Productos para el cuidado del cabello
+
 Constructor
 
 La categoría debe poder crearse proporcionando sus datos principales.
@@ -72,6 +74,7 @@ Producto
 El producto debe tener un objeto Categoria, no simplemente un texto con el nombre de la categoría.
 
 Métodos de Producto
+
 AumentarStock()
 
 Debe permitir aumentar la cantidad disponible.
@@ -127,6 +130,7 @@ Nombre: Shampoo
 Precio: C$150
 Stock: 20
 Categoría: Cabello
+
 3. Clase Inventario
 
 Esta es la clase más importante del ejercicio.
@@ -146,6 +150,7 @@ Inventario
 ├── Producto
 └── Producto
 Métodos de Inventario
+
 AgregarProducto()
 
 Debe recibir/agregar un producto al inventario.
@@ -176,6 +181,7 @@ Resultado:
 
 P001 → Shampoo
 P003 → Gel
+
 BuscarProducto()
 
 Debe permitir buscar un producto.
@@ -266,6 +272,7 @@ Resultado:
 
 Producto con menor stock: Crema
 Stock: 8
+
 ObtenerProductoMasCaro()
 
 Debe encontrar el producto con mayor precio.
@@ -280,6 +287,7 @@ Resultado:
 
 Producto más caro: Crema
 Precio: C$250
+
 CalcularValorInventario()
 
 Debe calcular cuánto dinero representa todo el inventario.
@@ -299,6 +307,7 @@ Gel     → 80 × 23  = 1840
 Entonces:
 
 Valor total = C$6840
+
 🧠 Lo más importante: responsabilidades
 
 Quiero que mantengas esta separación:
