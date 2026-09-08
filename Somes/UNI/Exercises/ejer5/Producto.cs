@@ -28,10 +28,7 @@ public class Producto
 
     public void DisminuirStock(int cantidad)
     {
-        if (cantidad <= stock)
-        {
-            stock -= cantidad;
-        }
+        stock -= cantidad;
     }
 
     public bool HayStock(int cantidad)
@@ -39,12 +36,8 @@ public class Producto
         return stock >= cantidad;
     }
 
-    public void MostrarInformacion()
+    public string MostrarInformacion()
     {
-        Console.WriteLine($"Codigo: {codigo}");
-        Console.WriteLine($"Nombre: {nombre}");
-        Console.WriteLine($"Precio: {precio}");
-        Console.WriteLine($"Stock: {stock}");
-        Console.WriteLine($"Categoria{Categoria.NombreCategoria}");
+        return $"{Codigo,-10} {Nombre,-15} C${Precio,-10} {Stock,-5}";
     }
 }

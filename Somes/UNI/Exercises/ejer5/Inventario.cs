@@ -1,3 +1,5 @@
+using System.Runtime.InteropServices;
+
 public class Inventario
 {
     List<Producto> productos = new List<Producto>();
@@ -58,21 +60,10 @@ public class Inventario
         return -1;
     }
 
-    public string AgregarProducto(Producto producto)
+    public void AgregarProducto(Producto producto)
     {
-        bool existe = BuscarProducto(producto.Codigo) != -1;
-
-        if (!existe)
-        {
-            productos.Add(producto);
-            OrdenarLista();
-            return "Hecho";
-        }
-        else
-        {
-            Console.WriteLine("El producto ya existe !!!");
-            return "Fallo";
-        }
+        productos.Add(producto);
+        OrdenarLista();
     }
 
     public string EliminarProducto(string codigo)
@@ -82,57 +73,72 @@ public class Inventario
         if (posicion != -1)
         {
             productos.RemoveAt(posicion);
-            return "Hecho";
+            Console.WriteLine("\nProducto eliminado con exito !!!\n");
+            return "S";
         }
         else
         {
-            Console.WriteLine("No se puede eliminar un producto no existente");
-            return "Fallo";
+            Console.WriteLine("\nProducto no encontrado !!!\n");
+            return "N";
         }
     }
 
-    public string VenderProducto(Producto producto, int cantidad)
+    public string VenderProducto(string codigo, int cantidad)
     {
-        bool existe = BuscarProducto(producto.Codigo) != -1;
+        int posicion = BuscarProducto(codigo);
 
-        if (existe)
+        Producto producto1 = productos[posicion];
+
+        if (!producto1.HayStock(cantidad))
         {
-            if (cantidad > 0 && cantidad <= producto.Stock)
+            Console.WriteLine("No hay suficiente stock para realizar la venta !!!");
+            return "N";
+        }
+
+        producto1.DisminuirStock(cantidad);
+
+        Console.WriteLine("Producto vendido correctamente !!!");
+        return "S";
+    }
+
+    public void ReponerProducto(string codigo, int cantidad)
+    {
+        int posicion = BuscarProducto(codigo);
+
+        Producto producto = productos[posicion];
+
+        producto.AumentarStock(cantidad);
+
+        Console.WriteLine("Producto repuesto correctamente !!!");
+    }
+
+    public bool InventarioVacio()
+    {
+        return productos.Count == 0;
+    }
+
+    public void MostrarProductosBajoStock()
+    {
+        Console.WriteLine("=============================================");
+        Console.WriteLine("             PRODUCTOS CON BAJO STOCK");
+        Console.WriteLine("=============================================");
+
+        foreach (Producto producto in productos)
+        {
+            if (producto.Stock <= 5)
             {
-                producto.Stock -= cantidad;
-                return "Hecho";
+                Console.WriteLine(producto.MostrarInformacion());
+                Console.WriteLine("---------------------------------------------");
             }
+        }
 
-            Console.WriteLine("No hay suficiente stock o la cantidad no es válida");
-            return "Casi";
-        }
-        else
-        {
-            Console.WriteLine("El producto no se puede vender, no existe !!!");
-            return "Fallo";
-        }
-    }
-
-    public string ReponerProducto(Producto producto, int cantidad)
-    {
-        bool existe = BuscarProducto(producto.Codigo) != -1;
-
-        if (existe && cantidad > 0)
-        {
-            producto.Stock += cantidad;
-            return "Hecho";
-        }
-        else
-        {
-            Console.WriteLine("El producto no puede reponer stock, no existe o la cantidad no es válida.");
-            return "Fallo";
-        }
+        Console.WriteLine("=============================================");
     }
 
     public void MostrarInventario()
     {
         Console.WriteLine("=============================================");
-        Console.WriteLine("                INVENTARIO");
+        Console.WriteLine("              INVENTARIO");
         Console.WriteLine("=============================================");
 
         Console.WriteLine("{0,-10} {1,-15} {2,-10} {3,-5}",
@@ -142,12 +148,28 @@ public class Inventario
 
         foreach (Producto producto in productos)
         {
-            Console.WriteLine("{0,-10} {1,-15} C${2,-8} {3,-5}",
-                producto.Codigo,
-                producto.Nombre,
-                producto.Precio,
-                producto.Stock);
+            Console.WriteLine(producto.MostrarInformacion());
         }
         Console.WriteLine("=============================================");
+    }
+
+    public decimal ValorTotalInventario()
+    {
+        if (productos.Count == 0)
+        {
+            Console.WriteLine("El inventario está vacío.");
+            return 0;
+        }
+
+        decimal total = 0;
+
+        foreach (Producto producto in productos)
+        {
+            total += producto.Precio * producto.Stock;
+        }
+
+        Console.WriteLine($"El valor total del inventario es: C${total}");
+
+        return total;
     }
 }
